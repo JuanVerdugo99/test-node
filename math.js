@@ -1,3 +1,5 @@
+const Math = {};
+
 function sum(x1, x2) {
     return x1 + x2
 }
@@ -18,8 +20,17 @@ function divide(x1, x2) {
     }    
 }
 
-exports.sum = sum;
-exports.substract = substract;
+Math.sum = sum;
+Math.substract = substract;
+Math.muliply = muliply;
+Math.divide = divide;
+
+module.exports = Math;
+
+// exports.sum = sum;
+// exports.substract = substract;
+// exports.muliply = muliply;
+// exports.divide = divide;
 
 // const totalSum = sum(1, 2)
 // const totalSubstract = substract(1, 2)
