@@ -1,4 +1,4 @@
-const hello = require("./math.js")
+
 const math = require(`./math.js`)
 
 console.log(math)

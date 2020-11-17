@@ -25,9 +25,9 @@ Math.substract = substract;
 Math.muliply = muliply;
 Math.divide = divide;
 
-function hello(name) {
-    console.log('Hola ', name);
-}
+// function hello(name) {
+//     console.log('Hola ', name);
+// }
 
 // EXPORTA OBJETOS, FUNCIONES, VARIABLES Y CUALQUIER DATO DE JS
 module.exports = Math;
